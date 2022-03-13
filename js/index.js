@@ -24,9 +24,6 @@ function openMenuLeft(){
     
 }
 
-function aumnetaProgressBar(){
-    document.getElementById('progress-front-end').className +=' fin-progress-bar';
-}
 
 //Observadores del scroll
 
@@ -55,10 +52,6 @@ const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll
         }else{
             entry.target.classList.add('appear')
             appearOnScroll.unobserve(entry.target)
-        }
-        console.log('Ahora', entry.target.id)
-        if(entry.target.id =='front-end'){
-            aumnetaProgressBar()
         }
     });
 

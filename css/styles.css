@@ -342,7 +342,7 @@ footer {
 .fondo_p{
   width:100%;
   height:50vh;
-  background : url(/assets/img/fondo2.jpg);
+  background : url(https://vicpecli.github.io/Portfolio/assets/img/fondo2.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -592,7 +592,7 @@ h1, h2{
   background-size: cover;
   background-color:grey; 
   /* background-image: url("/assets/img/Languajes/Angular.png"); */
-  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(/assets/img/Languajes/Angular.png) no-repeat 0 50%;
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(https://vicpecli.github.io/Portfolio/assets/img/Languajes/Angular.png) no-repeat 0 50%;
   /* background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,. 5)), url("/assets/img/Languajes/Angular.png"); */
   background-position: 50% 50%;
 }
@@ -605,7 +605,7 @@ h1, h2{
   background-size: cover;
   background-color:grey; 
   /* background-image: url("/assets/img/Languajes/Angular.png"); */
-  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(/assets/img/Languajes/NodeJS.png) no-repeat 0 50%;
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(https://vicpecli.github.io/Portfolio/assets/img/Languajes/NodeJS.png) no-repeat 0 50%;
   /* background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,. 5)), url("/assets/img/Languajes/Angular.png"); */
   background-position: 50% 50%;
 }
@@ -617,7 +617,7 @@ h1, h2{
   background-size: cover;
   background-color:grey; 
   /* background-image: url("/assets/img/Languajes/Angular.png"); */
-  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(/assets/img/Languajes/Python.png) no-repeat 0 50%;
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(https://vicpecli.github.io/Portfolio/assets/img/Languajes/Python.png) no-repeat 0 50%;
   /* background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,. 5)), url("/assets/img/Languajes/Angular.png"); */
   background-position: 50% 50%;
 }

@@ -1,0 +1,500 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portafolio</title>
+      <link href="css/bootstrap-5/css/bootstrap.min.css" rel="stylesheet" >
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link href="css/styles.css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+  </head>
+  <!--  position: relative; -->
+  <body style="background-color: #1D2331;position:relative;">
+    <!-- d-flex flex-column flex-shrink-0 p-3 text-white bg-dark-->
+    <div class=" d-flex flex-column flex-shrink-0 p-3 fade-in-up disappear" style="width: 280px; height : auto; position:fixed; z-index: 9999; margin-top:8rem ;" id="menuLeft">
+      <ul class="nav nav-pills flex-column mb-auto ">
+        <li>
+          <!-- overflow -->
+          <div class="timeline-image"><img class="rounded-circle img-fluid " src="assets/img/victor Pellicer en RTO-Metro 1-1.jpg" alt="..." /></div>
+      </li>
+
+      </ul>
+    </div>
+
+
+  
+    <div class="div">
+      <div class="fondo_p" >
+        <div>
+          <h1 class="display-5 fw-bold">Victor Pellicer</h1>
+          <h3>Desarrollador Web  <img src="/assets/iconos/Laptop1.png" style="max-width:20px;height:auto" ></h3>
+        </div> 
+      </div>
+
+    </div>
+
+  <!-- fixed-top -->
+  <!-- box-shadow:0 0px 0px 0 rgb(0 0 0 / 0%) -->
+    <nav id="#mainNavbar" class="navbar navbar-light navbar-expand-lg m-md-0 m-lg-4" style="box-shadow: none">
+        <a class="navbar-brand text-white" style="cursor:pointer"  onclick="HideMenuLeft()"><strong><h3>Victor Pellicer</h3></strong></a>
+        <button onclick="collapseNavbar()" style="background-color: #8C3756;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse  " id="navbarToggler" >
+          <div class="row menu" >
+          <div class="col">
+            <ul id="menu" class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-between "  style="text-align: center;">
+              <li class="nav-item" onclick="collapseNavbar()">
+                <a class="nav-link text-white" href="#experiencia" tabindex="-1" >Experiencia</a>
+              </li>
+
+              <li class="nav-item"  onclick="collapseNavbar()">
+                <a class="nav-link text-white" href="#skills">Habilidades</a>
+              </li>
+
+              <li class="nav-item"  onclick="collapseNavbar()">
+                <a class="nav-link text-white" href="#Projects">Proyectos</a>
+              </li>
+
+              <li class="nav-item"  onclick="collapseNavbar()">
+                <a class="nav-link text-white" href="#objetivos" tabindex="-1" >Objetivos</a>
+              </li>
+            </ul>
+        </div>
+            
+      
+      
+          </div>
+    
+        </div>
+    </nav>
+
+
+
+
+    <section class="page-section " id="experiencia">
+        <div class="container">
+          <div class="row" style="margin-top: 5rem;">
+            <div class="col">
+              <div class="text-center">
+                <h2 class="display-5 fw-bold" >Experiencia</h2>
+                <!-- <h3 class="section-subheading">Mi Historia </h3> -->
+                <hr>
+                
+            </div>
+            
+            <ul class="timeline mt-5">
+
+              <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/Makro.png" alt="..." /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>2020 - Actualidad</h4>
+                        <h4 class="subheading">Makro cash and carry</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p> 
+                      Se me presentó una gran oportunidad al haber sido seleccionado para trabajar en esta multinacional.
+                      Se me ofreció ir a trabajar en la oficina de Rotterdam durante 2 años, que estan especializadas en la compra de carne.
+                      <br>
+                      He participado en :  
+                      <ul class="list_in_ul">
+                        <li>Proyectos de Desarrollo Web.</li>
+                        <li>Reportes para los managers.</li>
+                        <li>Intercambio de información con terceros.</li>
+                      </ul>
+                      
+                      </p>
+                    </div>
+                </div>
+            </li>
+              
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/Ingenieria.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="bold">2014-2019</h4>
+                            <h4 class="subheading">Ingeniería Telemática</h4>
+                        </div>
+                        <div class="timeline-body">
+                          <p>
+                          Cursé la carrera de Ingeniería Telemática en la Universidad de Valencia.
+                          <br>
+                          Seleccioné esta titulación en particular porque siempre he tenido mucho interes por las tecnologías y además vi que se impartian asignaturas en inglés. 
+                          Las asignaturas que más me gustaron fueron las relacionadas con el desarrollo de aplicaciones web.   
+                          </p></div>
+                    </div>
+                </li>
+                
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/Raqueta.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2008 - 2014</h4>
+                            <h4 class="subheading">Becado como deportista</h4>
+                        </div>
+                        <div class="timeline-body">
+                          <p> 
+                          Desde bien pequeño empece a jugar a tenis de mesa. Un deporte que requiere de mucha constancia, disciplina y concentración.
+                          A los 12 años se me ofreció ir al complejo educativo de Cheste, donde pude llevar mis habilidades deportivas al más alto nivel.
+                          </p></div>
+                    </div>
+                </li>
+                <li >
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/English.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2000 - 2008</h4>
+                            <h4 class="subheading">Colegio Britanico</h4>
+                        </div>
+                        <div class="timeline-body"><p>Estudié primaria en el British School Alzira, 
+                          donde se impartian todas las asignaturas en inglés. Gracias a que estos primeros años de educación fueron en un colegio Británico, tengo un nivel alto de inglés.</p></div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                      
+                        <h4 class="mt-3 mt-md-5">
+                          Nacido en
+                            <br/>
+                            1996
+                        </h4>
+                    </div>
+                </li> 
+            </ul>
+        </div>
+            </div>
+          </div>
+
+    </section>
+
+
+
+
+    <section id="skills">
+      <div class="container">
+        <div class="row" style="margin-top: 10rem;">
+          <div class="col">
+            <div class="text-center">
+              <h2 class="display-5 fw-bold">Habilidades</h2>
+              <hr>
+            </div>
+          </div>
+        
+        
+        </div>
+
+
+        <div class="container py-4">
+
+      
+          <div class="pb-3 mb-4  ">
+            <div class="container-fluid p-5 border rounded-3">
+              
+                <div class="col-12 col-md-12 text-justify">
+                  <h2>Front-End Developer</h3>
+                  <p class="fs-4">
+                   El diseño y hacer las aplicaciones funcionales es lo que más me apasiona.
+                  </p>
+                  <p class="fs-4">
+                  Estoy constantemente capacitándome con el fin de poder dar la mejor experiencia al usuario final.
+                  </p>
+                  <p class=" fs-4">
+                  Soy muy curioso y me gusta entender porque se hacen las cosas de una forma y no de otra. Si no sé de algún tema, 
+                  investigo hasta que lo comprendo.             
+                 </p>
+                 <p class=" fs-4">
+                  Comencé estudiando Java Script, CSS3 y HTML. Que son las bases para cualquier desarrollo web. 
+                  Despues continué estudiando Bootstraps, cosa que me facilitó hacer aplicaciones responsive.           
+                </p>
+                <p class=" fs-4">
+                  Angular fué el primer framework que estudié, ya que en Makro la myoria de asplicaciones estaban hechas en Angular. 
+                  Trabajar con Angular me parece muy util ya que se pueden crear aplicaciones muy grandes y muy bien estructuradas. El uso de 
+                  TypeScript tipando las variables consigue evitar muchos errores.         
+                </p>
+                </div>
+                <hr>
+             
+              <div class="row">
+                <div class="col-4 col-md-2 mt-3 mt-md-3" data-bs-toggle="tooltip" data-bs-html="true" title="Java Script">
+                  <span class="card d-flex" style="max-width:5rem;border: none; ">
+                    <img src="/assets/iconos/JavaScript.png" alt="">
+                  </span>
+                </div>
+                <div class="col-4 col-md-2 mt-3 mt-md-3" data-bs-toggle="tooltip" data-bs-html="true" title="CSS3">
+                  <span class="card d-flex" style="max-width:5rem;border: none; "><img src="/assets/iconos/css3.png" alt=""></span>
+                </div>
+                <div class="col-4 col-md-2 mt-3 mt-md-3" data-bs-toggle="tooltip" data-bs-html="true" title="HTML5">
+                  <span class="card d-flex" style="max-width:5rem;border: none;"><img src="/assets/iconos/html.png" alt=""></span>
+                </div>
+                <div class="col-4 col-md-2 mt-3 mt-md-3" data-bs-toggle="tooltip" data-bs-html="true" title="Bootstrap">
+                  <span class="card d-flex" style="max-width:5rem;border: none;"><img src="/assets/iconos/bootstrap.png" alt=""></span>
+                </div>
+                <div class="col-4 col-md-2 mt-3 mt-md-3" data-bs-toggle="tooltip" data-bs-html="true" title="Angular">
+                  <span class="card d-flex" style="max-width:5rem;border: none;"><img src="/assets/iconos/angular.svg" alt=""></span>
+                </div>
+                <div class="col-4 col-md-2 mt-3 mt-md-3" data-bs-toggle="tooltip" data-bs-html="true" title="Type Script">
+                  <span class="card d-flex" style="max-width:5rem;border: none;"><img src="/assets/iconos/TypeScript.png" alt=""></span>
+                </div>
+               
+              
+              </div>
+         
+            </div>
+          </div>
+      
+          <div class="row align-items-md-stretch">
+            <div class="col-md-6 text-justify">
+              <div class="h-100 p-5  border rounded-3">
+                <h2>Back-End Developer</h2>
+                <p>Para poder realizar aplicaciones completas y consumir mis propias API's, decidí aprender Node JS y así conseguir el stack MEAN.</p>
+                <p>He trabajado con SQL Server, Mysql y Mongo DB para extraer los datos.</p>
+                <p>Tambien he importado datos necesarios para hacer migracion entre aplicaciones.</p>
+                <hr>
+               <div class="row">
+                <div class="col-3 mt-3"  data-bs-toggle="tooltip" data-bs-html="true" title="Node JS">
+                  <span class="card d-flex" style="max-width:5rem;border: none;"><img src="/assets/iconos/NodeJs.png" alt=""></span>
+                </div>
+      
+                <div class="col-3 mt-3"  data-bs-toggle="tooltip" data-bs-html="true" title="SQL Server">
+                  <span class="card d-flex" style="max-width:5rem;border: none;"><img src="/assets/iconos/sql server.png" alt=""></span>
+                </div>
+                <div class="col-3 mt-3"  data-bs-toggle="tooltip" data-bs-html="true" title="Mongo DB">
+                  <span class="card d-flex" style="max-width:5rem;border: none;"><img src="/assets/iconos/MongoDB-Compass.png" alt=""></span>
+                </div>
+               </div>
+               
+              </div>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0 text-justify">
+              <div class="h-100 p-5 border rounded-3" >
+                <h2>Otras Habilidades</h2>
+                <p>Git es fundamental para un buen control de versiones.</p>
+                <p>Saber comunicarse con el Back-End a través de OpenApi me parece fundamental. Y luego revisar las Api a traves de Postman.</p>
+                <p>RXJS facilita el tratamiento de datos recibidos en el observable</p>
+          
+                  <hr>
+                <div class="row">
+                  <div class="col-3 mt-3 " data-bs-toggle="tooltip" data-bs-html="true" title="GIT">
+                    <span class="card img__img" style="max-width:5rem;border: none;"><img src="/assets/iconos/Git.png.crdownload" alt=""></span>
+                  </div>
+                  <div class="col-3 mt-3" data-bs-toggle="tooltip" data-bs-html="true" title="Swagger">
+                    <span class="card d-flex" style="max-width:5rem;border: none;"><img src="/assets/iconos/swagger Opne API1.png" alt=""></span>
+                  </div> 
+                  <div class="col-3 mt-3 " data-bs-toggle="tooltip" data-bs-html="true" title="Postman">
+                    <span class="card img__img" style="max-width:5rem;border: none;"><img src="/assets/iconos/Postman.png" alt=""></span>
+                  </div> 
+                  <div class="col-3 mt-3" data-bs-toggle="tooltip" data-bs-html="true" title="RXJS">
+                    <span class="card d-flex" style="max-width:5rem;border: none;"><img src="/assets/iconos/RXJS.png" alt=""></span>
+                  </div>
+
+                  <!-- <div class="col-3 mt-3" data-bs-toggle="tooltip" data-bs-html="true" title="Python">
+                    <span class="card d-flex" style="max-width:5rem;"><img src="/assets/iconos/Python.png" alt=""></span>
+                  </div> -->
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  
+
+
+
+
+     
+    </section>
+      
+
+    <section id="Projects">
+      <div class="container">
+
+        <div class="row" style="margin-top: 10rem;">
+          <div class="col">
+            <div class="text-center">
+              <h2 class="display-5 fw-bold">Proyectos</h2>
+              <hr>
+            </div>
+          </div>
+        
+        
+        </div>
+
+        <div class="row mt-3">
+          <div class="col">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Front-End</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Back-End</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+           
+                <div class="row mt-3 mt-md-5">
+                    <!-- order-1 abajo del todo -->
+                    <!-- Order 2 Encima de Python -->
+                  <div class="col-12 col-md-6 col-lg-4 image ">
+                    <div id="front-end" style="--clr:#2E7B8C ;  " class=" card h-100 zoom card-hover fade-in-left img_img">
+                      <img class="card-img-top" src="/assets/img/medicos.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">CRUD Usuarios/Medicos/Hospitales</h5>
+                        <p class="card-text">Un Medico trabaja en un Hospital. Un Usuarios que tienen asignado un Medico y va a un Hospital. CRUD.</p>
+                      </div>
+                      <div class="card-footer">
+                        <div class="row">
+                          <div class="col">
+                            <span class="badge">Angular</span>
+                            <span class="badge">RXJS</span>
+                            <span class="badge">HTML5</span>
+                            <span class="badge">CSS</span>
+                            <span class="badge ">Bootstrap</span>
+                          </div>
+                        </div>
+                      </div> 
+                    </div> 
+                    <div class="image_overlay">
+                      <h2>Ver Proyecto</h2>
+                  
+                      <h5>Accedes a la aplicacion a traves de un usuario y contraseña.</h5>
+                      <h5>Desde el panel de administrador puedes hacer el CRUD de los Usuarios, Hospitales y Medicos.</h5>
+                      <h5>Si accedes como paciente solo puede ver el medico y hospital que tiene asociados.</h5>
+                    
+            
+                      <div class="row d-flex justify-content-around" style="width: 100%;">
+                        <span class="col-12 col-md-5 m-1 m-md-1" style="    background-color: #1D2331;border: 2px solid #8c3756;border-radius: 10px; cursor:pointer;">Website</span>
+                        <a href="https://github.com/vicpecli/admin-pro-backend.git">
+                          <span class="col-12 col-md-5 m-1 m-md-1" style="    background-color: #1D2331;border: 2px solid #8c3756;border-radius: 10px; cursor:pointer;" >Repositorio</span>
+                        </a>
+                      </div>            
+                    </div>
+                  </div>
+                </div>
+                    
+                    <!-- justify-content-between -->
+                  
+                
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><h1>Holi</h1>
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+              </div>
+          
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="page-section " id="objetivos">
+      <div class="container">
+        <div class="row" style="margin-top: 10rem;">
+          <div class="col">
+            <div class="text-center">
+              <h2 class="display-5 fw-bold">Objetivos</h2>
+              <hr>
+            </div>
+          </div>    
+        </div>
+
+
+        <div class="row mt-3">
+          <div class="col-6 col-md-3 col-lg-2">
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active text-center" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">2022</a>
+              <a class="list-group-item list-group-item-action  text-center" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">2022-2025</a>
+           </div>
+          </div>
+          <div class="col-12 col-md-9 col-lg-10 mt-3 mt-md-0" style="min-height: 20rem;" >
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                <ul class="m-3">
+                  <li>Crear mi Portafolio de trabajo</li>
+                  <li>Crear 3 proyectos personales con Angular</li>
+                  <li>Crear 1 proyecto de Back-End con Node Js </li>
+                  <li>Continuar mi formación en Angular y tambien Node JS</li>
+                  <li>Estudiar y hacer proyectos con React</li>
+                  <li>Actualizar GIT con todos los proyectos</li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">  
+              <ul class="m-3">
+                <li>Haber aprendido buenas practicas de desarrollo</li>
+                <li>Dominar Angular y Reat</li>
+                <li>Dominar Node JS</li>
+                <li>Haber leído los libros</li>
+                <ul>
+                  <li>
+                    Cracking the Coding Interview de MCDOWELL
+                  </li>
+                  <li>
+                    Clean Code de Robert C.Martin
+                  </li>
+                </ul>
+              </ul>
+            </div>
+             
+            </div>
+          </div>
+        </div>
+
+      </div>
+          
+
+    </section>
+    <br>
+    <br>
+    <br>
+  
+ 
+
+    <footer class=" fixed-bottom">
+      <div class="row m-0 m-md-4" style="max-width: 8rem;">
+
+        <div class="col-12 col-xl-6">
+          <a href="https://www.linkedin.com/in/v%C3%ADctor-pellicer-climent-084b93a8"  target="_blank">
+            <img class="cursor-pointer" src="/assets/iconos/linkedin.png"  alt="">
+          </a>
+          
+        </div>
+        <div class="col-12 col-xl-6">
+          <img class="cursor-pointer" src="/assets/iconos/gmail.png" alt="">
+        </div>
+            
+
+    </div>
+    </footer>
+
+
+
+
+  <!--  overflow: hidden; -->
+  <!-- M-74.77,25.17 C204.00,265.97 516.08,45.89 502.54,-20.20 L500.00,150.00 L0.00,150.00 Z -->
+    <div style="height: 150px;" >
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 150%; width: 100%"><path d="M-74.77,25.17 C204.00,265.97 516.08,45.89 502.54,-20.20 L500.00,150.00 L0.00,150.00 Z " style="stroke: none; fill: #5C9EAD;"></path>
+      </svg>
+    </div>
+
+
+
+
+    <script src="/js/jquery.js"></script> 
+    <script src="/js/index.js"></script>
+    <script src="css/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+      
+  </body>
+
+
+
+
+</html>

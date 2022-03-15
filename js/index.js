@@ -109,15 +109,25 @@ $('.navbar a').on('click', function(e){
 
         $("html, body").animate({
             scrollTop: posicion-minusposition
-        }, 2000); 
+        }, 10000); 
     }
 
 });
 
 
-$("html, body").animate({
-    scrollTop: 0
-}, 3000);
+
+// $(document).ready(function(){
+//     var y = $(this).scrollTop()
+//     if(y>0){
+//         console.log('Soy mayor', y)
+//         $("html, body").animate({
+//             scrollTop: 0
+//         }, 3000);
+//     }else{
+//         console.log('Soy igual', y)
+//     }
+           
+//  })
 
 
 

@@ -342,7 +342,7 @@ footer {
 .fondo_p{
   width:100%;
   height:50vh;
-  background : url(https://vicpecli.github.io/Portfolio/assets/img/fondo2.jpg);
+  /*background : url(https://vicpecli.github.io/Portfolio/assets/img/fondo2.jpg);*/
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -367,6 +367,32 @@ footer {
 .fondo_p div h3{
   font-size: 1rem;
   text-align: center;
+  overflow-y: 9999999;
+  z-index: 9999;
+}
+
+.contenedor {
+  position: relative;
+  z-index: 999999999;
+}
+
+
+#particles-js{
+  width:auto;
+  height:100%;
+  width:100%;
+ position: absolute;
+
+ 
+}
+
+
+
+.title-Victor{
+  text-align: center;
+  position: relative;
+  z-index: 9999;
+
 }
 
 nav div a,  ul li a {
@@ -516,6 +542,8 @@ body{
   font-family:  'Montserrat', sans-serif;
   font-weight: 100;
   font-size:1.2rem;
+  user-select: none;
+  zoom: 85%;
 }
 body::-webkit-scrollbar { 
   /* solo oculta su visualizacion */

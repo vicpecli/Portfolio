@@ -1,4 +1,6 @@
 
+
+
 function HideMenuLeft(){
     if(document.getElementById('menuLeft').classList.contains('view')){
         closeMenuLeft()
@@ -100,9 +102,9 @@ $('.navbar a').on('click', function(e){
         // Para ordenador 100
         // Para Movil 300
         if($(window).width()>991){
-            var minusposition = 100
+            var minusposition = 150
         } else {
-            var minusposition = 280
+            var minusposition = 240
         }
 
         var posicion = $(this.hash).offset().top;
@@ -162,3 +164,7 @@ if(document.getElementById('navbarToggler').classList.contains('collapse')){
 //     }
  
 //  }
+
+
+//Particuas
+
